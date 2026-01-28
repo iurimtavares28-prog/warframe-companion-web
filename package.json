@@ -1,0 +1,36 @@
+{
+  "name": "warframe-companion-web",
+  "version": "2.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "warframe",
+    "companion",
+    "web"
+  ],
+  "author": "Warframe Companion Team",
+  "license": "MIT",
+  "description": "Warframe Companion Pro - Web Version",
+  "dependencies": {
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "axios": "^1.13.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-pwa": "^1.2.0",
+    "workbox-window": "^7.4.0",
+    "zustand": "^5.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
